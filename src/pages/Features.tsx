@@ -177,14 +177,14 @@ const Features = () => {
     {/* Floating Positive Chat Bubbles (manually positioned) */}
 {[
   { text: "That’s awesome!", top: "23%", left: "68%" },
-  { text: "You make me laugh 😂", top: "10%", left: "45%" },
+  { text: "You make me laugh.", top: "10%", left: "45%" },
   { text: "I’ve never clicked this fast.", top: "35%", left: "15%" },
   { text: "This feels real.", top: "55%", left: "52%" },
   { text: "I totally agree.", top: "42%", left: "70%" },
   { text: "You get it.", top: "80%", left: "35%" },
   { text: "This is fun!", top: "60%", left: "15%" },
   { text: "We should talk more.", top: "75%", left: "60%" },
-  { text: "I love this vibe 💫", top: "10%", left: "10%" },
+  { text: "I love this vibe.", top: "10%", left: "10%" },
 ].map((msg, i) => (
   <div
     key={i}

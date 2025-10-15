@@ -58,9 +58,9 @@ const Footer = () => {
   <h4 className="font-semibold mb-4 text-[#013B43]/90">Connect</h4>
   <ul className="space-y-2">
     {[
-      { name: "Twitter", url: "https://twitter.com/YOUR_USERNAME" },
-      { name: "Instagram", url: "https://instagram.com/YOUR_USERNAME" },
-      { name: "LinkedIn", url: "https://linkedin.com/in/YOUR_USERNAME" },
+      { name: "X", url: "https://x.com/wavlngth_app" },
+      { name: "Instagram", url: "https://www.instagram.com/wavlngth_app/" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/company/wavlngth-app/about/" },
     ].map((item) => (
       <li key={item.name}>
         <a
