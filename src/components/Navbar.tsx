@@ -71,7 +71,7 @@ const Navbar = () => {
   <div className="flex-1 flex justify-end">
     <Button
       onClick={() => setShowComingSoon(true)}
-      className="bg-gradient-primary text-primary-foreground text-sm px-6 py-2 rounded-xl shadow-[0_0_15px_rgba(0,194,168,0.3)] hover:shadow-[0_0_25px_rgba(0,224,202,0.6)] transition-all duration-500 hover:scale-105"
+      className="bg-gradient-primary text-black text-sm px-6 py-2 rounded-xl shadow-[0_0_15px_rgba(0,194,168,0.3)] hover:shadow-[0_0_25px_rgba(0,224,202,0.6)] transition-all duration-500 hover:scale-105"
     >
       Join Waitlist
     </Button>
@@ -93,9 +93,9 @@ const Navbar = () => {
                   Wavlngth is currently in development. Check back soon to discover your authentic connections.
                 </p>
                 <div className="pt-4">
-                  <div className="inline-block px-4 py-2 bg-secondary rounded-full">
-                    <span className="text-sm font-medium text-secondary-foreground">🌊 Stay tuned</span>
-                  </div>
+                  {/* <div className="inline-block px-4 py-2 bg-secondary rounded-full">
+                    <span className="text-sm font-medium text-secondary-foreground">Stay tuned</span>
+                  </div> */}
                 </div>
               </div>
             </DialogDescription>

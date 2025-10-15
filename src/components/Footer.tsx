@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="col-span-1 md:col-span-2">
         <div className="flex items-center gap-3 mb-4">
           <img src={logo} alt="Wavlngth Logo" className="h-8 w-auto" />
-          <span className="text-xl font-bold text-[#013B43]">wavlngth</span>
+          <span className="text-xl font-bold text-[#013B43]"></span>
         </div>
         <p className="text-sm text-[#014C4F]/80 max-w-md leading-relaxed">
           Finding your people through predictive intelligence. Connect
@@ -55,20 +55,27 @@ const Footer = () => {
 
       {/* === Connect === */}
       <div>
-        <h4 className="font-semibold mb-4 text-[#013B43]/90">Connect</h4>
-        <ul className="space-y-2">
-          {["Twitter", "Instagram", "LinkedIn"].map((item) => (
-            <li key={item}>
-              <a
-                href="#"
-                className="text-sm text-[#014C4F]/70 hover:text-[#00C2A8] transition-colors"
-              >
-                {item}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+  <h4 className="font-semibold mb-4 text-[#013B43]/90">Connect</h4>
+  <ul className="space-y-2">
+    {[
+      { name: "Twitter", url: "https://twitter.com/YOUR_USERNAME" },
+      { name: "Instagram", url: "https://instagram.com/YOUR_USERNAME" },
+      { name: "LinkedIn", url: "https://linkedin.com/in/YOUR_USERNAME" },
+    ].map((item) => (
+      <li key={item.name}>
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-[#014C4F]/70 hover:text-[#00C2A8] transition-colors"
+        >
+          {item.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
+
     </div>
 
     {/* === Divider & Copyright === */}

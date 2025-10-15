@@ -152,6 +152,11 @@ export default {
           "0%, 100%": { opacity: "0.4" },
           "50%": { opacity: "0.8" },
         },
+        orbFloat: {
+          '0%': { transform: 'translateX(0)', opacity: '0.8' },
+          '50%': { transform: 'translateX(1200px)', opacity: '1' },
+          '100%': { transform: 'translateX(0)', opacity: '0.8' },
+        },
 
       },
 
